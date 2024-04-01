@@ -1,0 +1,147 @@
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #605c5c;
+    border-radius: 5px;
+    background-color: #f2e5bd;
+}
+.html{
+    background-color: #fecc42;
+}
+
+.table-container h3 {
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.table-container p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table-container a.add-btn {
+    text-decoration: none;
+    background-color: #1b2a64;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+thead td {
+    padding: 8px;
+    background-color: #959595;
+    font-weight: bold;
+    
+}
+
+tbody td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.edit, .delete {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin-right: 5px;
+}
+
+.edit {
+    background-color: #2c7736;
+}
+
+.delete {
+    background-color: #992f27;
+}
+
+
+p {
+    margin: 20px 0;
+}
+
+.add-btn {
+    text-decoration: none;
+    background-color: #14135ef5; /* Changed background color to a calming blue */
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size for better emphasis */
+    padding: 12px 20px; /* Increased padding for better button size */
+    transition: background-color 0.3s ease; /* Added transition for smoother hover effect */
+}
+
+.add-btn:hover {
+    background-color: #2980b9; 
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2e5bd;
+}
+
+.form-container h3 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.form-group input {
+    width: 95%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"], a.btn-back {
+    background-color: #2651a2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button[type="submit"]:hover, a.btn-back:hover {
+    background-color: #243268;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f2dede;
+    color: #a94442;
+}
+
+

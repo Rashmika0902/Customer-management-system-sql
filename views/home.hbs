@@ -1,0 +1,30 @@
+<div class="table-container">
+    <h3>CUSTOMER MANAGEMENT SYSTEM</h3>
+    <p><a href="/addCustomer" class="add-btn">Add customer +</a></p>
+    <table>
+        <thead>
+            <tr>
+                <td>#</td>
+                <td>Name</td>
+                <td>Email</td>
+                <td>Phone</td>
+                <td>Address</td>
+                <td>Edit</td>
+                <td>Delete</td>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each rows}}
+            <tr>
+                <td>{{this.ID}}</td>
+                <td>{{this.NAME}}</td>
+                <td>{{this.EMAIL}}</td>
+                <td>{{this.PHONE}}</td>
+                <td>{{this.ADDRESS}}</td>
+                <td><a href="/editCustomer/{{this.ID}}" class="edit">Edit</a></td>
+                <td><a href="/deleteCustomer/{{this.ID}}" class="delete">Delete</a></td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
